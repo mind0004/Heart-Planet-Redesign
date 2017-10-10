@@ -1,10 +1,7 @@
-* {
-    background-color: lightpink;
-}
+* {}
 
 
 header {
-    position: fixed;
     width: 100%;
     padding: 10px;
     background-color: lightcoral;
