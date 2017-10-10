@@ -2,7 +2,6 @@
     margin: 0 auto;
 }
 
-
 header {
     width: 100%;
     padding: 10px;
@@ -15,7 +14,7 @@ nav a {
     text-decoration: none;
     padding: 4px;
     display: inline-block;
-    background-color: lightcoral
+    background-color: lightcoral;
 }
 
 header nav a:hover {
@@ -28,7 +27,6 @@ nav {
     background-color: lightcoral;
 }
 
-
 footer {
     Display: flex;
     flex-basis: 1;
@@ -39,20 +37,40 @@ footer {
     background-color: #dcdcdc;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
 /*****FORSIDE HANS******************/
 
-
 #forside .container {
-            display: flex;
-            flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-        }
-
-        #forside .column {
-            flex-grow: 1;
-            flex-basis: 400px;
-            height: 100%;
-        }
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    height: 100%;
+}
 
 #forside img {
     flex-wrap: wrap;
@@ -61,13 +79,9 @@ footer {
 }
 
 
-
-
-
 /****BØGER MALOU**********************/
 
 #boeger {}
-
 
 
 /****VEGANER********************/
@@ -75,11 +89,9 @@ footer {
 #veganer {}
 
 
-
 /****ANIMALRESCUE***************/
 
 #animalrescue {}
-
 
 
 /****SOMMERFUGLEARVEN***********/
@@ -87,11 +99,9 @@ footer {
 #sommerfuglearven {}
 
 
-
 /****ENUVIDENDESDAGBOG***********/
 
 #enuvidendesdagbog {}
-
 
 
 /****SPIND***********************/
@@ -99,13 +109,49 @@ footer {
 #spind {}
 
 
-
 /****FORFATTER SIMONE*******************/
 
-section #forfatter {
-    margin: 200px;
+#forfatter .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#forfatter {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+#forfatter .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 0.8em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#forfatter .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+
+}
+
+#forfatter .top {
+    align-self: flex-start;
+}
+
+#forfatter .bottom {
+    align-self: flex-end;
+}
+
+#forfatter img {
+    max-width: 300px;
+}
+
+#forfatter p {
+    margin: 10px;
+}
 
 
 /****FORLAGET MINI********************/
@@ -113,7 +159,13 @@ section #forfatter {
 #forlaget {}
 
 
-
 /****HJERTELIGELINKS SIMONE*************/
 
-#hjerteligelinks {}
+#hjerteligelinks .manchet {
+    font-weight: 800;
+}
+
+#hjerteligelinks {
+    margin: 0 auto;
+    max-width: 1280px;
+}
