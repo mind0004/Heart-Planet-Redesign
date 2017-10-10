@@ -2,10 +2,13 @@
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .sectionwrapper {
     max-width: 1280px;
 }
 
+=======
+>>>>>>> origin/master
 header {
     width: 100%;
     padding: 10px;
@@ -31,7 +34,6 @@ nav {
     background-color: lightcoral;
 }
 
-
 footer {
     Display: flex;
     flex-basis: 1;
@@ -42,10 +44,22 @@ footer {
     background-color: #dcdcdc;
 }
 
+container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
 /*****FORSIDE HANS******************/
 
 #forside {}
-
 
 
 /****BØGER MALOU**********************/
@@ -53,11 +67,9 @@ footer {
 #boeger {}
 
 
-
 /****VEGANER********************/
 
 #veganer {}
-
 
 
 /****ANIMALRESCUE***************/
@@ -65,11 +77,9 @@ footer {
 #animalrescue {}
 
 
-
 /****SOMMERFUGLEARVEN***********/
 
 #sommerfuglearven {}
-
 
 
 /****ENUVIDENDESDAGBOG***********/
@@ -77,11 +87,9 @@ footer {
 #enuvidendesdagbog {}
 
 
-
 /****SPIND***********************/
 
 #spind {}
-
 
 
 /****FORFATTER SIMONE*******************/
@@ -130,11 +138,9 @@ footer {
 
 
 
-
 /****FORLAGET MINI********************/
 
 #forlaget {}
-
 
 
 /****HJERTELIGELINKS SIMONE*************/
