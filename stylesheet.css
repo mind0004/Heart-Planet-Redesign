@@ -1,43 +1,65 @@
 * {
-    background-color: aqua;
+    background-color: lightpink;
 }
 
-/*****FORSIDE***********/
+header {}
+
+footer {}
+
+/*****FORSIDE******************/
 
 #forside {}
 
-/****BØGER**************/
+
+
+/****BØGER**********************/
 
 #boeger {}
 
-/****VEGANER************/
+
+
+/****VEGANER********************/
 
 #veganer {}
 
-/****ANIMALRESCUE*******/
+
+
+/****ANIMALRESCUE***************/
 
 #animalrescue {}
 
-/****SOMMERFUGLEARVEN***/
+
+
+/****SOMMERFUGLEARVEN***********/
 
 #sommerfuglearven {}
 
-/****ENUVIDENDESDAGBOG**/
+
+
+/****ENUVIDENDESDAGBOG***********/
 
 #enuvidendesdagbog {}
 
-/****SPIND**************/
+
+
+/****SPIND***********************/
 
 #spind {}
 
-/****FORFATTER**********/
+
+
+/****FORFATTER*******************/
 
 #forfatter {}
 
-/****FORLAGET***********/
+
+
+/****FORLAGET********************/
 
 #forlaget {}
 
-/****HJERTELIGELINKS****/
+
+
+/****HJERTELIGELINKS*************/
 
 #hjerteligelinks {}
