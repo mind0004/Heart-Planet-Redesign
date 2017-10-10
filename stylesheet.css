@@ -36,13 +36,13 @@ footer {
     background-color: #dcdcdc;
 }
 
-/*****FORSIDE******************/
+/*****FORSIDE HANS******************/
 
 #forside {}
 
 
 
-/****BØGER**********************/
+/****BØGER MALOU**********************/
 
 #boeger {}
 
@@ -78,7 +78,7 @@ footer {
 
 
 
-/****FORFATTER*******************/
+/****FORFATTER SIMONE*******************/
 
 section #forfatter {
     margin: 200px;
@@ -86,12 +86,12 @@ section #forfatter {
 
 
 
-/****FORLAGET********************/
+/****FORLAGET MINI********************/
 
 #forlaget {}
 
 
 
-/****HJERTELIGELINKS*************/
+/****HJERTELIGELINKS SIMONE*************/
 
 #hjerteligelinks {}
