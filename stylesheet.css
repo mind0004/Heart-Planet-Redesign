@@ -1,4 +1,6 @@
-* {}
+* {
+    margin: 0 auto;
+}
 
 
 header {
@@ -33,6 +35,7 @@ footer {
     outline-style: double;
     outline-color: grey;
     padding: 5px;
+    margin: 20px 0 0 0;
     background-color: #dcdcdc;
 }
 
