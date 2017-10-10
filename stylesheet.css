@@ -49,34 +49,34 @@ footer {
     width: 100%;
 }
 
-
-
-
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-
 /*****FORSIDE HANS******************/
 
-#forside .container {
+#forside .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-#forside .column {
+#forside .container {
     flex-grow: 1;
     flex-basis: 400px;
+}
+
+#forside .column {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
 }
 
-#forside img {
-    flex-wrap: wrap;
-    max-width: 400px;
-    max-height: 214px;
+#forside .bottom {
+    align-self: flex-end;
 }
+
 
 
 /****BØGER MALOU**********************/
