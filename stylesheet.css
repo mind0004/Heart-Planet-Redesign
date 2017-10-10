@@ -1,4 +1,6 @@
-* {}
+* {
+    margin: 0 auto;
+}
 
 
 header {
@@ -33,10 +35,11 @@ footer {
     outline-style: double;
     outline-color: grey;
     padding: 5px;
+    margin: 20px 0 0 0;
     background-color: #dcdcdc;
 }
 
-/*****FORSIDE******************/
+/*****FORSIDE HANS******************/
 
 
     #forside .sectionwrapper {
@@ -67,7 +70,7 @@ footer {
 
 
 
-/****BØGER**********************/
+/****BØGER MALOU**********************/
 
 #boeger {}
 
@@ -103,7 +106,7 @@ footer {
 
 
 
-/****FORFATTER*******************/
+/****FORFATTER SIMONE*******************/
 
 section #forfatter {
     margin: 200px;
@@ -111,12 +114,12 @@ section #forfatter {
 
 
 
-/****FORLAGET********************/
+/****FORLAGET MINI********************/
 
 #forlaget {}
 
 
 
-/****HJERTELIGELINKS*************/
+/****HJERTELIGELINKS SIMONE*************/
 
 #hjerteligelinks {}
