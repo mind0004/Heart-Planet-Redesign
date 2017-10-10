@@ -3,7 +3,7 @@
 }
 
 .sectionwrapper {
-    max-width: 1180px;
+    max-width: 1280px;
 }
 
 header {
@@ -86,7 +86,48 @@ footer {
 
 /****FORFATTER SIMONE*******************/
 
-#forfatter {}
+#forfatter .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forfatter {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+#forfatter .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 0.8em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#forfatter .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+
+}
+
+#forfatter .top {
+    align-self: flex-start;
+}
+
+#forfatter .bottom {
+    align-self: flex-end;
+}
+
+#forfatter img {
+    max-width: 300px;
+}
+
+#forfatter p {
+    margin: 10px;
+}
+
 
 
 
@@ -98,4 +139,11 @@ footer {
 
 /****HJERTELIGELINKS SIMONE*************/
 
-#hjerteligelinks {}
+#hjerteligelinks .manchet {
+    font-weight: 800;
+}
+
+#hjerteligelinks {
+    margin: 0 auto;
+    max-width: 1280px;
+}
