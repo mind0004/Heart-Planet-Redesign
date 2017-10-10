@@ -2,6 +2,9 @@
     margin: 0 auto;
 }
 
+.sectionwrapper {
+    max-width: 1180px;
+}
 
 header {
     width: 100%;
@@ -15,7 +18,7 @@ nav a {
     text-decoration: none;
     padding: 4px;
     display: inline-block;
-    background-color: lightcoral
+    background-color: lightcoral;
 }
 
 header nav a:hover {
@@ -41,32 +44,7 @@ footer {
 
 /*****FORSIDE HANS******************/
 
-
-    #forside .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-        #forside .container {
-            flex-grow: 1;
-            flex-basis: 400px;
-        }
-
-        #forside .column {
-            display: flex;
-            flex-wrap: wrap;
-            height: 100%;
-        }
-
-#forside .bottom{
-    align-self: flex-end;
-}
-
-#forside img {
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 400px;
-}
+#forside {}
 
 
 
@@ -108,9 +86,7 @@ footer {
 
 /****FORFATTER SIMONE*******************/
 
-section #forfatter {
-    margin: 200px;
-}
+#forfatter {}
 
 
 
