@@ -43,15 +43,6 @@ footer {
     width: 100%;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-
-
-
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +64,6 @@ footer {
 }
 
 #forside img {
-    flex-wrap: wrap;
     max-width: 400px;
     max-height: 214px;
 }
