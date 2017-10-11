@@ -151,16 +151,29 @@ footer {
 
 /****FORLAGET MINI********************/
 
+#forlaget {
+    max-width: 1280px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #C0C0C0;
+}
+
 #forlaget .container {
     display: flex;
     flex-wrap: wrap;
 }
 
-#forlaget {}
-
 #forlaget .column {
-    flex-basis: 200px;
+    flex-basis: 400px;
     flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+#forlaget .video {
+    flex-basis: 500px;
+    flex-grow: 5;
+    background-color: transparent;
 }
 
 
