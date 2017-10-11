@@ -77,46 +77,128 @@ footer {
 
 /****BØGER MALOU**********************/
 
-#boeger {}
+#boeger {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1280px;
+}
 
+#boeger h2 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+}
 
-/****VEGANER********************/
-
-#veganer {}
-
-
-/****ANIMALRESCUE***************/
-
-#animalrescue {}
-
-
-/****SOMMERFUGLEARVEN***********/
-
-#sommerfuglearven {}
-
-
-/****ENUVIDENDESDAGBOG***********/
-
-#enuvidendesdagbog {}
-
-
-/****SPIND***********************/
-
-#spind {}
-
-
-/****FORFATTER SIMONE*******************/
-
-#forfatter .sectionwrapper {
+#boeger .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
+#boeger .veganer {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 320px;
+    margin: 15px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+#boeger .diverse {
+    flex-basis: 400px;
+    flex-grow: 3;
+    max-width: 960px;
+    margin: 15px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+#boeger .books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boeger .content {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#boeger .column img {
+    width: 100%;
+}
+
+#boeger .content img {
+    width: 100%;
+}
+
+#boeger .fragt {
+    flex-basis: 2500px;
+}
+
+
+/****VEGANER********************/
+
+#veganer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#veganer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#veganer .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;
+}
+
+#veganer img {
+    width: 60%;
+    float: right;
+    padding: 20px;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 839px) {
+    #veganer img {
+        float: none;
+    }
+    #veganer {
+        margin: 0 auto;
+    }
+}
+
+
+}
+
+/****ANIMALRESCUE***************/
+#animalrescue {}
+
+/****SOMMERFUGLEARVEN***********/
+#sommerfuglearven {}
+
+/****ENUVIDENDESDAGBOG***********/
+#enuvidendesdagbog {}
+
+/****SPIND***********************/
+#spind {}
+
+/****FORFATTER SIMONE*******************/
+#forfatter .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 #forfatter {
     margin: 0 auto;
     max-width: 1280px;
 }
-
 #forfatter .column {
     flex-grow: 1;
     flex-basis: 200px;
@@ -124,52 +206,40 @@ footer {
     max-width: 300px;
     margin: 0 auto;
 }
-
 #forfatter .column_content {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     padding: 5px 5px 5px 5px;
 }
-
 #forfatter .top {
     align-self: flex-start;
 }
-
 #forfatter .bottom {
     align-self: flex-end;
 }
-
 #forfatter img {
     max-width: 300px;
 }
-
 #forfatter p {
     margin: 10px;
 }
 
-
 /****FORLAGET MINI********************/
-
 #forlaget .container {
     display: flex;
     flex-wrap: wrap;
 }
-
 #forlaget {}
-
 #forlaget .column {
     flex-basis: 200px;
     flex-grow: 1;
 }
 
-
 /****HJERTELIGELINKS SIMONE*************/
-
 #hjerteligelinks .manchet {
     font-weight: 800;
 }
-
 #hjerteligelinks {
     margin: 0 auto;
     max-width: 1280px;
