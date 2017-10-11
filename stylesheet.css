@@ -1,6 +1,9 @@
+/****#F98866 #FF420E #80BD9E #89DA59 ****/
+
 * {
     margin: 0 auto;
 }
+
 
 header {
     width: 100%;
@@ -29,12 +32,43 @@ nav {
 
 footer {
     Display: flex;
-    flex-basis: 1;
     outline-style: double;
     outline-color: grey;
     padding: 5px;
     margin: 20px 0 0 0;
     background-color: #dcdcdc;
+}
+
+footer .foot {
+    min-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+footer .footervenstre {
+    float: left;
+    width: 295px;
+}
+
+footer .footercenter {
+    display: none;
+    margin: 0 37px;
+    float: left;
+    width: 315px;
+}
+
+footer .footerhoejre {
+    float: right;
+    width: 295px;
+}
+
+@media screen and (max-width: 599px) {
+    footer .footervenstre {
+        float: none;
+    }
+    footer .footerhoejre {
+        float: none;
+    }
 }
 
 .container {
@@ -51,25 +85,22 @@ footer {
 
 /*****FORSIDE HANS******************/
 
-#forside .sectionwrapper {
+#forside .container {
     display: flex;
     flex-wrap: wrap;
-}
-
-#forside .container {
-    flex-grow: 1;
-    flex-basis: 400px;
 }
 
 #forside .column {
-    display: flex;
-    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 400px;
     height: 100%;
 }
 
-#forside .bottom {
-    align-self: flex-end;
+#forside img {
+    max-width: 400px;
+    max-height: 214px;
 }
+
 
 
 
@@ -105,48 +136,52 @@ footer {
 
 /****FORFATTER SIMONE*******************/
 
-#forfatter .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #forfatter {
     margin: 0 auto;
     max-width: 1280px;
+    padding: 10px;
 }
 
 #forfatter .column {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 400px;
     margin: 0.8em;
-    max-width: 300px;
+    max-width: 800px;
     margin: 0 auto;
+
 }
 
 #forfatter .column_content {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
 
 }
 
 #forfatter .top {
     align-self: flex-start;
+
 }
 
 #forfatter .bottom {
     align-self: flex-end;
+
 }
 
 #forfatter img {
-    max-width: 300px;
+    max-width: 49%;
 }
 
-#forfatter p {
-    margin: 10px;
+
+#forfatter h2 {
+    margin: 20px 0 20px 0;
 }
 
+#forfatter h3 {
+    margin: 20px 0 20px 0;
+}
 
 /****FORLAGET MINI********************/
 
@@ -159,7 +194,21 @@ footer {
     font-weight: 800;
 }
 
+#hjerteligelinks .column {
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
 #hjerteligelinks {
     margin: 0 auto;
     max-width: 1280px;
+}
+
+
+#hjerteligelinks h2 {
+    margin: 20px 0 20px 0;
+}
+
+#hjerteligelinks h4 {
+    margin: 10px 0 0 0;
 }
