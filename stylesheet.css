@@ -71,14 +71,18 @@ footer .footerhoejre {
     }
 }
 
+
 .container {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 
+
 .sectionwrapper {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
