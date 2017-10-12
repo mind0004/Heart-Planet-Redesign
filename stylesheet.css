@@ -56,10 +56,10 @@
         outline-color: #80bd9e;
         background-color: #80bd9e;
 
+
     }
 
     footer .foot {
-
         min-width: 90%;
         overflow: hidden;
         margin: 0 auto;
@@ -82,14 +82,17 @@
     footer .footerhoejre {
         float: right;
         width: 295px;
+
     }
 
     @media screen and (max-width: 599px) {
         footer .footervenstre {
             float: none;
+            margin: 0 auto;
         }
         footer .footerhoejre {
             float: none;
+            margin: 0 auto;
         }
     }
 
