@@ -1,354 +1,389 @@
-/****#F98866 #FF420E #80BD9E #89DA59 ****/
+    /****#F98866 #FF420E #80BD9E #89DA59 ****/
 
-* {
-    <<<<<<< HEAD margin: 0;
-    =======margin: 0 auto;
-    >>>>>>>origin/master
-}
+    body {
+        margin: 0 auto;
+    }
 
-header {
-    width: 100%;
-    <<<<<<< HEAD padding: 10px;
-    =======padding: 20px;
-    >>>>>>>origin/master background-color: #80bd9e;
-}
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        background-color: #80bd9e;
+        justify-content: space-between
+    }
 
-nav a {
-    color: #ffffff;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 4px;
-    display: inline-block;
-    background-color: #80bd9e;
-}
+    .logo img {
+        max-width: 300px;
+        margin: 5px 5%
+    }
 
-header nav a:hover {
-    color: #f98866;
-}
+    .logo {}
 
-nav {
-    text-align: left;
-    margin: 0 2em 0 3%;
-    background-color: #80bd9e;
-}
+    nav a {
+        color: #ffffff;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 4px;
+        display: inline-block;
+        background-color: #80bd9e;
+        margin: 25px 0.5px;
+        font-size: 0.9em;
+    }
 
-footer {
-    Display: flex;
-    outline-style: double;
-    outline-color: #80bd9e;
-    background-color: #80bd9e;
-}
+    header nav a:hover {
+        color: #f98866;
+    }
 
-footer .foot {
-    min-width: 90%;
-    overflow: hidden;
-    margin: 0 auto;
-}
+    nav {
+        text-align: left;
+        margin: 0 5% 0 5%;
+        background-color: #80bd9e;
+    }
 
-footer .footervenstre {
-    float: left;
-    width: 295px;
-    color: white;
-    <<<<<<< HEAD
-}
 
-footer .footercenter {
-    display: none;
-    margin: 0 37px;
-    float: left;
-    width: 315px;
-}
 
-=======
-}
-footer .footercenter {
-    display: none;
-    margin: 0 37px;
-    float: left;
-    width: 315px;
-}
->>>>>>>origin/master footer .footerhoejre {
-    float: right;
-    width: 295px;
-}
-@media screen and (max-width: 599px) {
+    @media screen and (min-width: 955px) {
+        nav a {
+            margin: 25px 10px;
+            font-size: 1.2em;
+        }
+    }
+
+    footer {
+        Display: flex;
+        outline-style: double;
+        outline-color: #80bd9e;
+        background-color: #80bd9e;
+
+    }
+
+    footer .foot {
+
+        min-width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
     footer .footervenstre {
-        float: none;
+        float: left;
+        width: 295px;
+        color: white;
+        margin: -10px 0 50px;
+    }
+
+    footer .footercenter {
+        display: none;
+        margin: 0 37px;
+        float: left;
+        width: 315px;
     }
 
     footer .footerhoejre {
-        float: none;
-    }
-}
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 0 7px;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-    background: #ffffff;
-    color: #80BD9E;
-}
-.fa-instagram {
-    background: #ffffff;
-    color: #80BD9E;
-}
-.fa-youtube {
-    background: #ffffff;
-    color: #80BD9E;
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-/*****FORSIDE HANS******************/
-#forside .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-#forside .column {
-    flex-grow: 1;
-    flex-basis: 400px;
-    height: 100%;
-}
-#forside img {
-    max-width: 400px;
-    max-height: 214px;
-}
-
-/****BØGER MALOU**********************/
-#boeger {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 1024px;
-}
-#boeger h2 {
-    font-family: 'source-sans-pro', sans-serif;
-    font-weight: 800;
-    margin: 20px;
-}
-#boeger .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: column;
-}
-#boeger .veganer {
-    flex-basis: 300px;
-    flex-grow: 1;
-    max-width: 320px;
-    margin: 15px;
-    padding: 20px;
-    background-color: #89DA59;
-    order: 1;
-}
-#boeger .diverse {
-    flex-basis: 600px;
-    flex-grow: 2;
-    max-width: 600px;
-    margin: 15px;
-    padding: 15px;
-    background-color: #89DA59;
-    order: 3;
-}
-#boeger .books {
-    display: flex;
-    flex-wrap: wrap;
-}
-#boeger .content {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 10px;
-}
-#boeger .column img {
-    width: 100%;
-}
-#boeger .content img {
-    width: 100%;
-}
-#boeger .fragt {
-    flex-basis: 200px;
-    margin: 15px auto 30px;
-    padding: 15px;
-    background-color: lavender;
-    text-align: center;
-    order: 2;
-}
-@media screen and (max-width:889px) {
-    #boeger .diverse {
-        order: 2;
+        float: right;
+        width: 295px;
     }
 
-    #boeger .fragt {
-        order: 3;
-        flex-basis: 5000px;
+    @media screen and (max-width: 599px) {
+        footer .footervenstre {
+            float: none;
+        }
+        footer .footerhoejre {
+            float: none;
+        }
     }
-}
-@media screen and (min-width:890px) {
+
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 0 7px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #ffffff;
+        color: #80BD9E;
+    }
+
+    .fa-instagram {
+        background: #ffffff;
+        color: #80BD9E;
+    }
+
+    .fa-youtube {
+        background: #ffffff;
+        color: #80BD9E;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    /*****FORSIDE HANS******************/
+
+    #forside .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forside .column {
+        flex-grow: 1;
+        flex-basis: 400px;
+        height: 100%;
+    }
+
+    #forside img {
+        max-width: 400px;
+        max-height: 214px;
+    }
+
+
+    /****BØGER MALOU**********************/
+
+    #boeger {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1280px;
+    }
+
+    #boeger h2 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-weight: 800;
+        margin: 20px;
+    }
+
     #boeger .sectionwrapper {
-        height: 100vw;
-    }
-
-    #boeger .diverse {
-        max-height: 1140px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #boeger .veganer {
-        max-height: 550px;
+        flex-basis: 300px;
+        flex-grow: 1;
+        max-width: 320px;
+        margin: 15px;
+        padding: 20px;
+        background-color: aqua;
     }
-}
 
-}
+    #boeger .diverse {
+        flex-basis: 400px;
+        flex-grow: 3;
+        max-width: 960px;
+        margin: 15px;
+        padding: 15px;
+        background-color: aquamarine;
+    }
 
-/****VEGANER********************/
-#veganer {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0;
-}
-#veganer .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 980px;
-    margin: 0 auto;
-}
-#veganer .column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin: 20px auto;
-    padding: 10px;
-    max-width: 400px;
-}
-#veganer img {
-    width: 60%;
-    float: right;
-    padding: 20px;
-    background-color: #89DA59;
-    margin: 0 auto;
-}
-@media screen and (max-width: 839px) {
+    #boeger .books {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #boeger .content {
+        flex-basis: 200px;
+        flex-grow: 1;
+        padding: 10px;
+    }
+
+    #boeger .column img {
+        width: 100%;
+    }
+
+    #boeger .content img {
+        width: 100%;
+    }
+
+    #boeger .fragt {
+        flex-basis: 2500px;
+    }
+
+
+    /****VEGANER********************/
+
+    #veganer {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #veganer .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    #veganer .column {
+        flex-basis: 400px;
+        flex-grow: 1;
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 400px;
+    }
+
     #veganer img {
-        float: none;
+        width: 60%;
+        float: right;
+        padding: 20px;
+        background-color: aqua;
     }
-}
 
-/****VEGANER********************/
+    @media screen and (max-width: 839px) {
+        #veganer img {
+            float: none;
+        }
+        #veganer {
+            margin: 0 auto;
+        }
+    }
 
-/****ANIMALRESCUE***************/
-#animalrescue {}
 
-/****SOMMERFUGLEARVEN***********/
-#sommerfuglearven {}
+    }
 
-/****ENUVIDENDESDAGBOG***********/
-#enuvidendesdagbog {}
+    /****ANIMALRESCUE***************/
 
-/****SPIND***********************/
-#spind {}
+    #animalrescue {}
 
-/****FORFATTER SIMONE*******************/
-#forfatter .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-#forfatter {
-    margin: 0 auto;
-    max-width: 1280px;
-    padding: 10px 10px 50px 10px;
-}
-#forfatter .column {
-    flex-grow: 1;
-    flex-basis: 400px;
-    margin: 0.8em;
-    max-width: 800px;
-    margin: 0 auto;
-}
-#forfatter .column_content {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    padding: 5px 20px 5px 20px;
-    margin: 10px;
-}
-#forfatter .top {
-    align-self: flex-start;
-}
-#forfatter .bottom {
-    align-self: flex-end;
-}
-#forfatter img {
-    max-width: 49%;
-}
-#forfatter p {
-    margin: 10px;
-}
-#forfatter h2 {
-    margin: 20px 0 20px 0;
-}
-#forfatter h3 {
-    margin: 20px 0 20px 0;
-}
+    /****SOMMERFUGLEARVEN***********/
 
-/****FORLAGET MINI********************/
-#forlaget {
-    max-width: 1280px;
-    margin: 5px;
-    padding: 5px;
-    background-color: #C0C0C0;
-}
-#forlaget .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-#forlaget {}
-#forlaget .column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin: 5px;
-    padding: 5px;
-}
-#forlaget .video {
-    flex-basis: 500px;
-    flex-grow: 5;
-    background-color: transparent;
-}
+    #sommerfuglearven {}
 
-/****HJERTELIGELINKS SIMONE*************/
-#hjerteligelinks .manchet {
-    font-weight: 800;
-}
-#hjerteligelinks .column {
-    margin: 10px;
-    padding: 5px 20px 5px 20px;
-}
-#hjerteligelinks {
-    margin: 0 auto;
-    max-width: 1280px;
-}
-#hjerteligelinks h2 {
-    margin: 20px 0 20px 0;
-}
-#hjerteligelinks h4 {
-    margin: 10px 0 0 0;
-}
-#hjerteligelinks a {
-    color: lightcoral;
-    text-decoration: none;
-}
-#hjerteligelinks a:hover {
-    color: #FF420E;
-}
+    /****ENUVIDENDESDAGBOG***********/
+
+    #enuvidendesdagbog {}
+
+    /****SPIND***********************/
+
+    #spind {}
+
+    /****FORFATTER SIMONE*******************/
+
+    #forfatter .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forfatter {
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 10px 10px 50px 10px;
+    }
+
+    #forfatter .column {
+        flex-grow: 1;
+        flex-basis: 400px;
+        margin: 0.8em;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #forfatter .column_content {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 5px 20px 5px 20px;
+        margin: 10px;
+    }
+
+    #forfatter .top {
+        align-self: flex-start;
+    }
+
+    #forfatter .bottom {
+        align-self: flex-end;
+    }
+
+    #forfatter img {
+        max-width: 49%;
+    }
+
+    #forfatter p {
+        margin: 10px;
+    }
+
+    #forfatter h2 {
+        margin: 20px 0 20px 0;
+    }
+
+    #forfatter h3 {
+        margin: 20px 0 20px 0;
+    }
+
+    /****FORLAGET MINI********************/
+
+    #forlaget {
+        max-width: 1280px;
+        margin: 5px;
+        padding: 5px;
+        background-color: #C0C0C0;
+    }
+
+    #forlaget .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forlaget {}
+
+    #forlaget .column {
+        flex-basis: 400px;
+        flex-grow: 1;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #forlaget .video {
+        flex-basis: 500px;
+        flex-grow: 5;
+        background-color: transparent;
+    }
+
+
+    /****HJERTELIGELINKS SIMONE*************/
+
+    #hjerteligelinks .manchet {
+        font-weight: 800;
+    }
+
+    #hjerteligelinks .column {
+        margin: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    #hjerteligelinks {
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    #hjerteligelinks h2 {
+        margin: 20px 0 20px 0;
+    }
+
+    #hjerteligelinks h4 {
+        margin: 10px 0 0 0;
+    }
+
+    #hjerteligelinks a {
+        color: lightcoral;
+        text-decoration: none;
+    }
+
+    #hjerteligelinks a:hover {
+        color: #FF420E;
