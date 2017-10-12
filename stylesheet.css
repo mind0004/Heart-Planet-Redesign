@@ -383,6 +383,132 @@
         font-weight: 800;
     }
 
+<<<<<<< HEAD
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    height: 100%;
+}
+
+#forside img {
+    max-width: 400px;
+    max-height: 214px;
+}
+
+
+/****BØGER MALOU**********************/
+
+#boeger {}
+
+
+/****VEGANER********************/
+
+#veganer {}
+
+
+/****ANIMALRESCUE***************/
+
+#animalrescue {}
+
+
+/****SOMMERFUGLEARVEN***********/
+
+#sommerfuglearven {}
+
+
+/****ENUVIDENDESDAGBOG***********/
+
+#enuvidendesdagbog {}
+
+
+/****SPIND***********************/
+
+#spind {}
+
+
+/****FORFATTER SIMONE*******************/
+
+#forfatter .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forfatter {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+#forfatter .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 0.8em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#forfatter .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+}
+
+#forfatter .top {
+    align-self: flex-start;
+}
+
+#forfatter .bottom {
+    align-self: flex-end;
+}
+
+#forfatter img {
+    max-width: 300px;
+}
+
+#forfatter p {
+    margin: 10px;
+}
+
+
+/****FORLAGET MINI********************/
+
+#forlaget {
+    max-width: 1280px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #C0C0C0;
+}
+
+#forlaget .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forlaget .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+#forlaget .video {
+    flex-basis: 500px;
+    flex-grow: 5;
+    background-color: red;
+}
+
+
+/****HJERTELIGELINKS SIMONE*************/
+
+#hjerteligelinks .manchet {
+    font-weight: 800;
+}
+
+#hjerteligelinks {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+=======
     #hjerteligelinks .column {
         margin: 10px;
         padding: 5px 20px 5px 20px;
@@ -405,3 +531,4 @@
 
     #hjerteligelinks a:hover {
         color: #FF420E;
+>>>>>>> origin/master
