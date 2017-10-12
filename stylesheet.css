@@ -1,378 +1,299 @@
-    /****#F98866 #FF420E #80BD9E #89DA59 ****/
+body {
+    margin: 0 auto;
+}
 
-    body {
-        margin: 0 auto;
-    }
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: #80bd9e;
+    justify-content: space-between
+}
 
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 20px;
-        background-color: #80bd9e;
-        justify-content: space-between
-    }
+.logo img {
+    max-width: 300px;
+    margin: 5px 5%
+}
 
-    .logo img {
-        max-width: 300px;
-        margin: 5px 5%
-    }
+.logo {}
 
-    .logo {}
+nav a {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 4px;
+    display: inline-block;
+    background-color: #80bd9e;
+    margin: 25px 0.5px;
+    font-size: 0.9em;
+}
 
+header nav a:hover {
+    color: #f98866;
+}
+
+nav {
+    text-align: left;
+    margin: 0 5% 0 5%;
+    background-color: #80bd9e;
+}
+
+@media screen and (min-width: 955px) {
     nav a {
-        color: #ffffff;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 4px;
-        display: inline-block;
-        background-color: #80bd9e;
-        margin: 25px 0.5px;
-        font-size: 0.9em;
+        margin: 25px 10px;
+        font-size: 1.2em;
     }
+}
 
-    header nav a:hover {
-        color: #f98866;
-    }
 
-    nav {
-        text-align: left;
-        margin: 0 5% 0 5%;
-        background-color: #80bd9e;
-    }
+/***************SPLASH*****************/
 
-    @media screen and (min-width: 955px) {
-        nav a {
-            margin: 25px 10px;
-            font-size: 1.2em;
-        }
-    }
 
-    /***************SPLASH*****************/
+/***************FOOTER*****************/
 
-    /***************FOOTER*****************/
+footer {
+    Display: flex;
+    outline-style: double;
+    outline-color: #80bd9e;
+    background-color: #80bd9e;
+}
 
-    footer {
-        Display: flex;
-        outline-style: double;
-        outline-color: #80bd9e;
-        background-color: #80bd9e;
-    }
+footer .foot {
+    min-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
-    footer .foot {
-        min-width: 90%;
-        overflow: hidden;
-        margin: 0 auto;
-    }
+footer .footervenstre {
+    float: left;
+    width: 295px;
+    color: white;
+    margin: -10px 0 50px;
+}
 
+footer .footercenter {
+    display: none;
+    margin: 0 37px;
+    float: left;
+    width: 315px;
+}
+
+footer .footerhoejre {
+    float: right;
+    width: 295px;
+}
+
+@media screen and (max-width: 599px) {
     footer .footervenstre {
-        float: left;
-        width: 295px;
-        color: white;
-        margin: -10px 0 50px;
+        float: none;
+        margin: 0 auto;
     }
-
-    footer .footercenter {
-        display: none;
-        margin: 0 37px;
-        float: left;
-        width: 315px;
-    }
-
     footer .footerhoejre {
-        float: right;
-        width: 295px;
-    }
-
-    @media screen and (max-width: 599px) {
-        footer .footervenstre {
-            float: none;
-            margin: 0 auto;
-        }
-        footer .footerhoejre {
-            float: none;
-            margin: 0 auto;
-            padding: 10px 0 30px 0;
-        }
-    }
-
-    .fa {
-        padding: 10px;
-        font-size: 30px;
-        width: 15px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        margin: 0 7px;
-    }
-
-    .fa:hover {
-        opacity: 0.7;
-    }
-
-    .fa-facebook {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .fa-instagram {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .fa-youtube {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-<<<<<<< HEAD
-=======
-
-    /*******FONT***********/
-
-    h2 {
-        font-family: 'source-sans-pro', sans-serif;
-        font-weight: 800;
-        margin: 20px;
-        font-size: 1.4rem;
-        text-transform: uppercase;
-    }
-
-    h3 {
-        font-family: 'source-sans-pro', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 700;
-    }
-
-    h4 {
-        font-family: 'source-sans-pro', sans-serif;
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
-
-    p {
-        font-family: 'Open Sans', 'sans-serif';
-        font-weight: 400;
-        font-size: 1rem;
-    }
-
->>>>>>> origin/master
-    /*****FORSIDE HANS******************/
-
-    #forside .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forside .column {
-        flex-grow: 1;
-        flex-basis: 400px;
-        height: 100%;
-    }
-
-    #forside img {
-        max-width: 400px;
-        max-height: 214px;
-    }
-    /****BØGER MALOU**********************/
-
-    #boeger {
+        float: none;
         margin: 0 auto;
-        padding: 0;
-        max-width: 1280px;
+        padding: 10px 0 30px 0;
     }
+}
 
-    #boeger h2 {
-        font-family: 'source-sans-pro', sans-serif;
-        font-weight: 800;
-        margin: 20px;
-    }
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 7px;
+}
 
-    #boeger .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.fa:hover {
+    opacity: 0.7;
+}
 
-    #boeger .veganer {
-        flex-basis: 300px;
-        flex-grow: 1;
-        max-width: 320px;
-        margin: 15px;
-        padding: 20px;
-        background-color: aqua;
-    }
+.fa-facebook {
+    background: #ffffff;
+    color: #80BD9E;
+}
 
-    #boeger .diverse {
-        flex-basis: 400px;
-        flex-grow: 3;
-        max-width: 960px;
-        margin: 15px;
-        padding: 15px;
-        background-color: aquamarine;
-    }
+.fa-instagram {
+    background: #ffffff;
+    color: #80BD9E;
+}
 
-    #boeger .books {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.fa-youtube {
+    background: #ffffff;
+    color: #80BD9E;
+}
 
-    #boeger .content {
-        flex-basis: 200px;
-        flex-grow: 1;
-        padding: 10px;
-    }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-    #boeger .column img {
-        width: 100%;
-    }
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-    #boeger .content img {
-        width: 100%;
-    }
 
-    #boeger .fragt {
-        flex-basis: 2500px;
-    }
-    /****VEGANER********************/
+/*******FONT***********/
 
-    #veganer {
-        max-width: 1280px;
-        margin: 0 auto;
-        padding: 0;
-    }
+h2 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
 
-    #veganer .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 980px;
-        margin: 0 auto;
-    }
+h3 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
-    #veganer .column {
-        flex-basis: 400px;
-        flex-grow: 1;
-        margin: 20px auto;
-        padding: 10px;
-        max-width: 400px;
-    }
+h4 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
+p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+/*****FORSIDE HANS******************/
+
+#forside .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    height: 100%;
+}
+
+#forside img {
+    max-width: 400px;
+    max-height: 214px;
+}
+
+
+/****BØGER MALOU**********************/
+
+#boeger {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1280px;
+}
+
+#boeger h2 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+}
+
+#boeger .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boeger .veganer {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 320px;
+    margin: 15px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+#boeger .diverse {
+    flex-basis: 400px;
+    flex-grow: 3;
+    max-width: 960px;
+    margin: 15px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+#boeger .books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boeger .content {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+#boeger .column img {
+    width: 100%;
+}
+
+#boeger .content img {
+    width: 100%;
+}
+
+#boeger .fragt {
+    flex-basis: 2500px;
+}
+
+
+/****VEGANER********************/
+
+#veganer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#veganer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#veganer .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;
+}
+
+#veganer img {
+    width: 60%;
+    float: right;
+    padding: 20px;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 839px) {
     #veganer img {
-        width: 60%;
-        float: right;
-        padding: 20px;
-        background-color: aqua;
+        float: none;
     }
+    #veganer {
+        margin: 0 auto;
+    }
+}
 
-    @media screen and (max-width: 839px) {
-        #veganer img {
-            float: none;
-        }
-        #veganer {
-            margin: 0 auto;
-        }
-    }
+
 }
 
 /****ANIMALRESCUE***************/
 #animalrescue {}
 
-<<<<<<< HEAD
 /****SOMMERFUGLEARVEN***********/
 #sommerfuglearven {}
-=======
-    }
-
-    /****ANIMALRESCUE***************/
-
-    #animalrescue {}
-
-    /****SOMMERFUGLEARVEN***********/
-
-    #sommerfuglearven {}
-
-    /****ENUVIDENDESDAGBOG***********/
-
-    #enuvidendesdagbog {}
-
-    /****SPIND***********************/
-
-    #spind {}
-
-    /****FORFATTER SIMONE*******************/
-
-    #forfatter .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forfatter {
-        margin: 0 auto;
-        max-width: 1024px;
-        padding: 10px 10px 50px 10px;
-    }
-
-    #forfatter .column {
-        flex-grow: 1;
-        flex-basis: 400px;
-        margin: 0.8em;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    #forfatter .column_content {
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        padding: 5px 20px 5px 20px;
-        margin: 10px;
-    }
-
-    #forfatter .top {
-        align-self: flex-start;
-    }
-
-    #forfatter .bottom {
-        align-self: flex-end;
-    }
-
-    #forfatter img {
-        max-width: 49%;
-    }
-
-    /****FORLAGET MINI********************/
-
-    #forlaget {
-        max-width: 1280px;
-        margin: 5px;
-        padding: 5px;
-        background-color: #C0C0C0;
-    }
-
-    #forlaget .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forlaget {}
-
-    #forlaget .column {
-        flex-basis: 400px;
-        flex-grow: 1;
-        margin: 5px;
-        padding: 5px;
-    }
->>>>>>> origin/master
 
 /****ENUVIDENDESDAGBOG***********/
 #enuvidendesdagbog {}
@@ -381,10 +302,6 @@
 #spind {}
 
 /****FORFATTER SIMONE*******************/
-#forfatter .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
 #forfatter {
     margin: 0 auto;
     max-width: 1024px;
@@ -413,116 +330,9 @@
 #forfatter img {
     max-width: 49%;
 }
-#forfatter p {
-    margin: 10px;
-}
-#forfatter h2 {
-    margin: 20px 0 20px 0;
-}
-#forfatter h3 {
-    margin: 20px 0 20px 0;
-}
 
 /****FORLAGET MINI********************/
 #forlaget {
-    max-width: 1024px;
-    padding: 5px;
-    background-color: #C0C0C0;
-    margin: 0 auto;
-}
-#forlaget .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-#forlaget .column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin: 5px;
-    padding: 5px;
-}
-#forlaget .column img {
-    flex-basis: 400px;
-    width: 40vw;
-}
-#forlaget .video {
-    flex-basis: 500px;
-    flex-grow: 5;
-    align-self: center;
-}
-
-/****HJERTELIGELINKS SIMONE*************/
-#hjerteligelinks .manchet {
-    font-weight: 800;
-}
-<<<<<<< HEAD #forside .column {
-    flex-grow: 1;
-    flex-basis: 400px;
-    height: 100%;
-}
-#forside img {
-    max-width: 400px;
-    max-height: 214px;
-}
-
-/****BØGER MALOU**********************/
-#boeger {}
-
-/****VEGANER********************/
-#veganer {}
-
-/****ANIMALRESCUE***************/
-#animalrescue {}
-
-/****SOMMERFUGLEARVEN***********/
-#sommerfuglearven {}
-
-/****ENUVIDENDESDAGBOG***********/
-#enuvidendesdagbog {}
-
-/****SPIND***********************/
-#spind {}
-
-/****FORFATTER SIMONE*******************/
-#forfatter .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-#forfatter {
-    margin: 0 auto;
-    max-width: 1280px;
-}
-#forfatter .column {
-    flex-grow: 1;
-    flex-basis: 200px;
-    margin: 0.8em;
-    max-width: 300px;
-    margin: 0 auto;
-}
-#forfatter .column img {
-    flex-basis: 300px;
-}
-#forfatter .column_content {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    padding: 5px 5px 5px 5px;
-}
-#forfatter .top {
-    align-self: flex-start;
-}
-#forfatter .bottom {
-    align-self: flex-end;
-}
-#forfatter img {
-    max-width: 300px;
-}
-#forfatter p {
-    margin: 10px;
-}
-
-/****FORLAGET MINI********************/
-#forlaget {
-    margin: 0 auto;
     max-width: 1280px;
     margin: 5px;
     padding: 5px;
@@ -531,17 +341,35 @@
 #forlaget .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #forlaget .column {
     flex-basis: 400px;
     flex-grow: 1;
-    margin: 5px;
     padding: 5px;
+    align-items: flex-start;
+}
+#forlaget .column2 {
+    flex-basis: 400px;
+    padding: 5px;
+    align-items: flex-start;
+}
+#forlaget img {
+    width: 400px;
 }
 #forlaget .video {
-    flex-basis: 500px;
-    flex-grow: 5;
-    background-color: red;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    width: 80%;
+}
+#forlaget .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
 }
 
 /****HJERTELIGELINKS SIMONE*************/
@@ -552,17 +380,13 @@
     margin: 0 auto;
     max-width: 1280px;
 }
-<<<<<<< HEAD
-=======#hjerteligelinks .column {
+#hjerteligelinks .column {
     margin: 10px;
     padding: 5px 20px 5px 20px;
 }
 #hjerteligelinks {
     margin: 0 auto;
     max-width: 1024px;
-}
-#hjerteligelinks h2 {
-    margin: 20px 0 20px 0;
 }
 #hjerteligelinks h4 {
     margin: 10px 0 0 0;
@@ -573,30 +397,4 @@
 }
 #hjerteligelinks a:hover {
     color: #FF420E;
-    >>>>>>>origin/master
-=======
-=======
-    #hjerteligelinks .column {
-        margin: 10px;
-        padding: 5px 20px 5px 20px;
-    }
-
-    #hjerteligelinks {
-        margin: 0 auto;
-        max-width: 1024px;
-    }
-
-
-    #hjerteligelinks h4 {
-        margin: 10px 0 0 0;
-    }
-
-    #hjerteligelinks a {
-        color: lightcoral;
-        text-decoration: none;
-    }
-
-    #hjerteligelinks a:hover {
-        color: #FF420E;
->>>>>>> origin/master
->>>>>>> origin/master
+}
