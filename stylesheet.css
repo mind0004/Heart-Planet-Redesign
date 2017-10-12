@@ -173,7 +173,7 @@ footer {
 #forlaget .video {
     flex-basis: 500px;
     flex-grow: 5;
-    background-color: transparent;
+    background-color: red;
 }
 
 
