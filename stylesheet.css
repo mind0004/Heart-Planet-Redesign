@@ -48,6 +48,10 @@
         }
     }
 
+    /***************SPLASH*****************/
+
+    /***************FOOTER*****************/
+
     footer {
         Display: flex;
         outline-style: double;
@@ -88,6 +92,7 @@
         footer .footerhoejre {
             float: none;
             margin: 0 auto;
+            padding: 10px 0 30px 0;
         }
     }
 
@@ -131,6 +136,38 @@
         flex-wrap: wrap;
         width: 100%;
     }
+<<<<<<< HEAD
+=======
+
+    /*******FONT***********/
+
+    h2 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-weight: 800;
+        margin: 20px;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: 'Open Sans', 'sans-serif';
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+>>>>>>> origin/master
     /*****FORSIDE HANS******************/
 
     #forside .container {
@@ -250,8 +287,92 @@
 /****ANIMALRESCUE***************/
 #animalrescue {}
 
+<<<<<<< HEAD
 /****SOMMERFUGLEARVEN***********/
 #sommerfuglearven {}
+=======
+    }
+
+    /****ANIMALRESCUE***************/
+
+    #animalrescue {}
+
+    /****SOMMERFUGLEARVEN***********/
+
+    #sommerfuglearven {}
+
+    /****ENUVIDENDESDAGBOG***********/
+
+    #enuvidendesdagbog {}
+
+    /****SPIND***********************/
+
+    #spind {}
+
+    /****FORFATTER SIMONE*******************/
+
+    #forfatter .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forfatter {
+        margin: 0 auto;
+        max-width: 1024px;
+        padding: 10px 10px 50px 10px;
+    }
+
+    #forfatter .column {
+        flex-grow: 1;
+        flex-basis: 400px;
+        margin: 0.8em;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #forfatter .column_content {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 5px 20px 5px 20px;
+        margin: 10px;
+    }
+
+    #forfatter .top {
+        align-self: flex-start;
+    }
+
+    #forfatter .bottom {
+        align-self: flex-end;
+    }
+
+    #forfatter img {
+        max-width: 49%;
+    }
+
+    /****FORLAGET MINI********************/
+
+    #forlaget {
+        max-width: 1280px;
+        margin: 5px;
+        padding: 5px;
+        background-color: #C0C0C0;
+    }
+
+    #forlaget .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forlaget {}
+
+    #forlaget .column {
+        flex-basis: 400px;
+        flex-grow: 1;
+        margin: 5px;
+        padding: 5px;
+    }
+>>>>>>> origin/master
 
 /****ENUVIDENDESDAGBOG***********/
 #enuvidendesdagbog {}
@@ -431,6 +552,7 @@
     margin: 0 auto;
     max-width: 1280px;
 }
+<<<<<<< HEAD
 =======#hjerteligelinks .column {
     margin: 10px;
     padding: 5px 20px 5px 20px;
@@ -452,3 +574,29 @@
 #hjerteligelinks a:hover {
     color: #FF420E;
     >>>>>>>origin/master
+=======
+=======
+    #hjerteligelinks .column {
+        margin: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    #hjerteligelinks {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+
+    #hjerteligelinks h4 {
+        margin: 10px 0 0 0;
+    }
+
+    #hjerteligelinks a {
+        color: lightcoral;
+        text-decoration: none;
+    }
+
+    #hjerteligelinks a:hover {
+        color: #FF420E;
+>>>>>>> origin/master
+>>>>>>> origin/master
