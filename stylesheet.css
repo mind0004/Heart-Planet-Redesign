@@ -1,221 +1,217 @@
-    /****#F98866 #FF420E #80BD9E #89DA59 ****/
+/****#F98866 #FF420E #80BD9E #89DA59 ****/
 
-    * {
-        margin: 0;
-    }
+* {
+    <<<<<<< HEAD margin: 0;
+    =======margin: 0 auto;
+    >>>>>>>origin/master
+}
 
-    header {
-        width: 100%;
-        padding: 10px;
-        background-color: #80bd9e;
-    }
+header {
+    width: 100%;
+    <<<<<<< HEAD padding: 10px;
+    =======padding: 20px;
+    >>>>>>>origin/master background-color: #80bd9e;
+}
 
-    nav a {
-        color: #ffffff;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 4px;
-        display: inline-block;
-        background-color: #80bd9e;
-    }
+nav a {
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 4px;
+    display: inline-block;
+    background-color: #80bd9e;
+}
 
-    header nav a:hover {
-        color: #f98866;
-    }
+header nav a:hover {
+    color: #f98866;
+}
 
-    nav {
-        text-align: left;
-        margin: 0 2em 0 3%;
-        background-color: #80bd9e;
-    }
+nav {
+    text-align: left;
+    margin: 0 2em 0 3%;
+    background-color: #80bd9e;
+}
 
-    footer {
-        Display: flex;
-        outline-style: double;
-        outline-color: #80bd9e;
-        background-color: #80bd9e;
-    }
+footer {
+    Display: flex;
+    outline-style: double;
+    outline-color: #80bd9e;
+    background-color: #80bd9e;
+}
 
-    footer .foot {
-        min-width: 90%;
-        overflow: hidden;
-        margin: 0 auto;
-    }
+footer .foot {
+    min-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
+footer .footervenstre {
+    float: left;
+    width: 295px;
+    color: white;
+    <<<<<<< HEAD
+}
+
+footer .footercenter {
+    display: none;
+    margin: 0 37px;
+    float: left;
+    width: 315px;
+}
+
+=======
+}
+footer .footercenter {
+    display: none;
+    margin: 0 37px;
+    float: left;
+    width: 315px;
+}
+>>>>>>>origin/master footer .footerhoejre {
+    float: right;
+    width: 295px;
+}
+@media screen and (max-width: 599px) {
     footer .footervenstre {
-        float: left;
-        width: 295px;
-        color: white;
-    }
-
-    footer .footercenter {
-        display: none;
-        margin: 0 37px;
-        float: left;
-        width: 315px;
+        float: none;
     }
 
     footer .footerhoejre {
-        float: right;
-        width: 295px;
+        float: none;
     }
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #ffffff;
+    color: #80BD9E;
+}
+.fa-instagram {
+    background: #ffffff;
+    color: #80BD9E;
+}
+.fa-youtube {
+    background: #ffffff;
+    color: #80BD9E;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-    @media screen and (max-width: 599px) {
-        footer .footervenstre {
-            float: none;
-        }
-        footer .footerhoejre {
-            float: none;
-        }
-    }
+/*****FORSIDE HANS******************/
+#forside .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#forside .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    height: 100%;
+}
+#forside img {
+    max-width: 400px;
+    max-height: 214px;
+}
 
-    .fa {
-        padding: 10px;
-        font-size: 30px;
-        width: 15px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        margin: 0 7px;
-    }
-
-    .fa:hover {
-        opacity: 0.7;
-    }
-
-    .fa-facebook {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .fa-instagram {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .fa-youtube {
-        background: #ffffff;
-        color: #80BD9E;
-    }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    /*****FORSIDE HANS******************/
-
-    #forside .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forside .column {
-        flex-grow: 1;
-        flex-basis: 400px;
-        height: 100%;
-    }
-
-    #forside img {
-        max-width: 400px;
-        max-height: 214px;
-    }
-    /****BØGER MALOU**********************/
-
-    #boeger {
-        margin: 0 auto;
-        padding: 0;
-        max-width: 1024px;
-    }
-
-    #boeger h2 {
-        font-family: 'source-sans-pro', sans-serif;
-        font-weight: 800;
-        margin: 20px;
-    }
-
-    #boeger .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    #boeger .veganer {
-        flex-basis: 300px;
-        flex-grow: 1;
-        max-width: 320px;
-        margin: 15px;
-        padding: 20px;
-        background-color: aqua;
-        order: 1;
-    }
-
+/****BØGER MALOU**********************/
+#boeger {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+}
+#boeger h2 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+}
+#boeger .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#boeger .veganer {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 320px;
+    margin: 15px;
+    padding: 20px;
+    background-color: aqua;
+    order: 1;
+}
+#boeger .diverse {
+    flex-basis: 600px;
+    flex-grow: 2;
+    max-width: 600px;
+    margin: 15px;
+    padding: 15px;
+    background-color: aquamarine;
+    order: 3;
+}
+#boeger .books {
+    display: flex;
+    flex-wrap: wrap;
+}
+#boeger .content {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 10px;
+}
+#boeger .column img {
+    width: 100%;
+}
+#boeger .content img {
+    width: 100%;
+}
+#boeger .fragt {
+    flex-basis: 200px;
+    margin: 15px auto 30px;
+    padding: 15px;
+    background-color: lavender;
+    text-align: center;
+    order: 2;
+}
+@media screen and (max-width:889px) {
     #boeger .diverse {
-        flex-basis: 600px;
-        flex-grow: 2;
-        max-width: 600px;
-        margin: 15px;
-        padding: 15px;
-        background-color: aquamarine;
-        order: 3;
-    }
-
-    #boeger .books {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #boeger .content {
-        flex-basis: 200px;
-        flex-grow: 1;
-        padding: 10px;
-    }
-
-    #boeger .column img {
-        width: 100%;
-    }
-
-    #boeger .content img {
-        width: 100%;
-    }
-
-    #boeger .fragt {
-        flex-basis: 200px;
-        margin: 15px auto 30px;
-        padding: 15px;
-        background-color: lavender;
-        text-align: center;
         order: 2;
     }
 
-    @media screen and (max-width:889px) {
-        #boeger .diverse {
-            order: 2;
-        }
-        #boeger .fragt {
-            order: 3;
-            flex-basis: 5000px;
-        }
+    #boeger .fragt {
+        order: 3;
+        flex-basis: 5000px;
+    }
+}
+@media screen and (min-width:890px) {
+    #boeger .sectionwrapper {
+        height: 100vw;
     }
 
-    @media screen and (min-width:890px) {
-        #boeger .sectionwrapper {
-            height: 100vw;
-        }
-        #boeger .diverse {
-            max-height: 1140px;
-        }
-        #boeger .veganer {
-            max-height: 550px;
-        }
+    #boeger .diverse {
+        max-height: 1140px;
     }
+
+    #boeger .veganer {
+        max-height: 550px;
+    }
+}
+
 }
 
 /****VEGANER********************/
@@ -248,13 +244,9 @@
     #veganer img {
         float: none;
     }
-
-    #veganer {
-        margin: 0 auto;
-    }
 }
 
-}
+/****VEGANER********************/
 
 /****ANIMALRESCUE***************/
 #animalrescue {}
@@ -304,8 +296,6 @@
 #forfatter p {
     margin: 10px;
 }
-
-/****FORLAGET MINI********************/
 #forfatter h2 {
     margin: 20px 0 20px 0;
 }
@@ -361,3 +351,4 @@
 }
 #hjerteligelinks a:hover {
     color: #FF420E;
+}
