@@ -32,14 +32,10 @@
 
     <!--MENU-->
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="logo/heartplanet_logo_nyt.png" alt="Logo"></a>
-        </div>
         <nav>
-            <a href="boeger.html">Bøger</a><a>|</a>
-            <a href="forfatter.html">Forfattere</a> <a>|</a>
-            <a href="forlaget.html">Forlaget</a><a>|</a>
+            <a href="boeger.html">Bøger</a> |
+            <a href="forfatter.html">Forfattere</a> |
+            <a href="forlaget.html">Forlaget</a> |
             <a href="hjerteligelinks.html">Hjertelige links</a>
         </nav>
     </header>
@@ -47,11 +43,8 @@
     <section id="boeger">
 
         <h2>Bøger</h2>
-        <p id="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices erat at interdum bibendum. Donec nec urna non justo convallis molestie. Mauris vitae vehicula ipsum. Phasellus sem odio, venenatis nec arcu ut, efficitur condimentum sem. Nam tristique, sapien vel vestibulum lobortis, lorem diam suscipit felis, ut venenatis neque lacus eu lectus. Morbi turpis nisi, finibus vel lacinia sit amet, vehicula id eros. </p>
         <div class="sectionwrapper">
-            <div class="column veganer">
-                <h3 id="nyhed">Nyhed!
-                </h3>
+            <div class="column">
                 <a href="veganer.html"><img src="billeder/veganer.jpg" alt="Veganer - Sådan kommer du i gang"></a>
                 <h3>Veganer - Sådan kommer du i gang</h3>
                 <p>af Karin Elrød</p>
@@ -59,7 +52,7 @@
                 <p>Læs om bogen&nbsp;<a href=veganer.html>her</a>.</p>
             </div>
 
-            <div class="column diverse">
+            <div class="column">
                 <div class="books">
                     <div class="content">
                         <a href="animalrescue.html">
@@ -87,37 +80,42 @@
                         <a href="enuvidendesdagbog.html"><img src="billeder/enendnuuvidendesdagbog.jpg" alt="En endnu uvidendes dagbog"></a>
                         <h3>En endnu uvidendes dagbog</h3>
                         <p>af Sebastian Cordes</p>
-                        <p>ISBN 9788799616718. Vejl. udsalgspris kr. 99,-</p>
+                        <p>ISBN 9788799616718. Vejledende udsalgspris kr. 99,-</p>
                         <p>Læs om bogen&nbsp;<a href=enuvidendesdagbog.html>her</a>.</p>
                     </div>
                 </div>
             </div>
-            <div class="column fragt">
-                <h3 id="fragt">Fragt i DK 30,-</h3>
+            <div class="column">
+                <h3>Fragt i DK 30,-</h3>
             </div>
         </div>
 
     </section>
 
+    <!--JAVASCRIPT NONSENSE TIL FACEBOOK PAGE-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
+    </script>
+
+    <!--FACEBOOK PAGE-->
+    <div class="fb-page" data-href="https://www.facebook.com/heartplanet.dk/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+        <blockquote cite="https://www.facebook.com/heartplanet.dk/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/heartplanet.dk/">Heart Planet</a></blockquote>
+    </div>
 
     <footer>
-        <div class="foot">
-            <div class="footervenstre">
-                <br>
-                <h4> Heart Planet </h4><br> Åboulevard 13, 1635 København V <br> E-mail: kontakt@heartplanet.dk <br> Telefon: 20371856 <br><br><br>
+        <br> Heart Planet <br> Åboulevard 13, 1635 København V <br> E-mail: kontakt@heartplanet.dk <br> Telefon: 20371856 <br>
 
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-                <a href="https://www.facebook.com/heartplanet.dk/" class="fa fa-facebook"></a>
-                <a href="http://www.instagram.com/" class="fa fa-instagram"></a>
-                <a href="http://www.youtube.com/" class="fa fa-youtube"></a>
-            </div>
-            <div class="footercenter"> </div>
-            <!---GOOGLE MAPS-->
-            <div class="footerhoejre">
-                <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.333867270535!2d12.553464315739557!3d55.683183004826894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253a7f8bf814b%3A0xbe4c516919bde609!2s%C3%85boulevard+13%2C+1635+K%C3%B8benhavn+V!5e0!3m2!1sda!2sdk!4v1507632142420" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-        </div>
+        <!---GOOGLE MAPS-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.333867270535!2d12.553464315739557!3d55.683183004826894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253a7f8bf814b%3A0xbe4c516919bde609!2s%C3%85boulevard+13%2C+1635+K%C3%B8benhavn+V!5e0!3m2!1sda!2sdk!4v1507632142420" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
     </footer>
 
 </body>
