@@ -153,7 +153,7 @@ footer .footercenter {
     max-width: 320px;
     margin: 15px;
     padding: 20px;
-    background-color: aqua;
+    background-color: #89DA59;
     order: 1;
 }
 #boeger .diverse {
@@ -162,7 +162,7 @@ footer .footercenter {
     max-width: 600px;
     margin: 15px;
     padding: 15px;
-    background-color: aquamarine;
+    background-color: #89DA59;
     order: 3;
 }
 #boeger .books {
@@ -237,7 +237,7 @@ footer .footercenter {
     width: 60%;
     float: right;
     padding: 20px;
-    background-color: aqua;
+    background-color: #89DA59;
     margin: 0 auto;
 }
 @media screen and (max-width: 839px) {
