@@ -15,7 +15,7 @@
 
     .logo img {
         max-width: 300px;
-        margin: 5px 5%
+        margin: 5% 5%
     }
 
     .logo {}
@@ -50,6 +50,12 @@
 
     /***************SPLASH*****************/
 
+    .splash img {
+        width: 100vw;
+        margin: 0 0 3%
+    }
+
+
     /***************FOOTER*****************/
 
     footer {
@@ -62,9 +68,9 @@
     }
 
     footer .foot {
-        min-width: 90%;
         overflow: hidden;
         margin: 0 auto;
+        min-width: 90%;
     }
 
     footer .footervenstre {
@@ -170,20 +176,59 @@
 
     /*****FORSIDE HANS******************/
 
+    #forside {
+        font-family: sans-serif;
+        color: #353530;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #forside h2 {
+        margin: 0;
+    }
+
+    #forside h4 {
+        color: #ffffff;
+        background-color: rgba(249, 136, 102, 0.53);
+        padding-left: 20px;
+        padding-top: 20px;
+
+        margin: 0;
+    }
+
+    #forside .content {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        column-count: 2;
+    }
+
     #forside .container {
+        max-width: 1280px;
+        background-color: rgba(249, 136, 102, 0.53);
         display: flex;
         flex-wrap: wrap;
+        margin: 0 0 20px 0;
+
     }
 
     #forside .column {
+        Color: #ffffff;
         flex-grow: 1;
-        flex-basis: 400px;
-        height: 100%;
+        flex-basis: 300px;
+        margin: 20px;
+
     }
 
     #forside img {
-        max-width: 400px;
-        max-height: 214px;
+        max-width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #forside .content {
+            column-count: 1;
+        }
     }
 
 
