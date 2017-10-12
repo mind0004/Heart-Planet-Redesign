@@ -41,14 +41,16 @@
         background-color: #80bd9e;
     }
 
-
-
     @media screen and (min-width: 955px) {
         nav a {
             margin: 25px 10px;
             font-size: 1.2em;
         }
     }
+
+    /***************SPLASH*****************/
+
+    /***************FOOTER*****************/
 
     footer {
         Display: flex;
@@ -93,6 +95,7 @@
         footer .footerhoejre {
             float: none;
             margin: 0 auto;
+            padding: 10px 0 30px 0;
         }
     }
 
@@ -137,6 +140,33 @@
         width: 100%;
     }
 
+    /*******FONT***********/
+
+    h2 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-weight: 800;
+        margin: 20px;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-family: 'source-sans-pro', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: 'Open Sans', 'sans-serif';
+        font-weight: 400;
+        font-size: 1rem;
+    }
 
     /*****FORSIDE HANS******************/
 
@@ -317,18 +347,6 @@
         max-width: 49%;
     }
 
-    #forfatter p {
-        margin: 10px;
-    }
-
-    #forfatter h2 {
-        margin: 20px 0 20px 0;
-    }
-
-    #forfatter h3 {
-        margin: 20px 0 20px 0;
-    }
-
     /****FORLAGET MINI********************/
 
     #forlaget {
@@ -375,9 +393,6 @@
         max-width: 1024px;
     }
 
-    #hjerteligelinks h2 {
-        margin: 20px 0 20px 0;
-    }
 
     #hjerteligelinks h4 {
         margin: 10px 0 0 0;
