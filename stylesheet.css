@@ -37,6 +37,7 @@ footer {
     outline-style: double;
     outline-color: #80bd9e;
     background-color: #80bd9e;
+    margin-top: 260px;
 }
 
 footer .foot {
@@ -137,9 +138,38 @@ footer .footercenter {
     max-width: 1024px;
 }
 #boeger h2 {
-    font-family: 'source-sans-pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 800;
+    font-size: 1.4rem;
     margin: 20px;
+    text-transform: uppercase;
+    color: #353530;
+}
+#boeger h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 0px;
+    color: #353530;
+}
+#boeger h3#nyhed {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    color: white;
+}
+#boeger p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0px;
+    color: #353530;
+}
+#boeger p#beskrivelse {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 20px 15px;
+    max-width: 1024px;
 }
 #boeger .sectionwrapper {
     display: flex;
@@ -153,8 +183,9 @@ footer .footercenter {
     max-width: 320px;
     margin: 15px;
     padding: 20px;
-    background-color: #89DA59;
+    background-color: #F98866;
     order: 1;
+    color: #353530;
 }
 #boeger .diverse {
     flex-basis: 600px;
@@ -164,6 +195,7 @@ footer .footercenter {
     padding: 15px;
     background-color: #89DA59;
     order: 3;
+    color: #353530;
 }
 #boeger .books {
     display: flex;
@@ -184,18 +216,28 @@ footer .footercenter {
     flex-basis: 200px;
     margin: 15px auto 30px;
     padding: 15px;
-    background-color: lavender;
+    background-color: #80BD9E;
     text-align: center;
     order: 2;
+    width: 300px;
+    max-height: 30px;
+}
+#boeger h3#fragt {
+    color: white;
 }
 @media screen and (max-width:889px) {
+    #boeger .veganer {
+        margin: 15px auto;
+    }
+
     #boeger .diverse {
         order: 2;
+        margin: 15px auto;
+        max-width: 600px;
     }
 
     #boeger .fragt {
         order: 3;
-        flex-basis: 5000px;
     }
 }
 @media screen and (min-width:890px) {
@@ -204,11 +246,11 @@ footer .footercenter {
     }
 
     #boeger .diverse {
-        max-height: 1140px;
+        max-height: 1200px;
     }
 
     #boeger .veganer {
-        max-height: 550px;
+        max-height: 620px;
     }
 }
 
@@ -229,24 +271,59 @@ footer .footercenter {
 #veganer .column {
     flex-basis: 400px;
     flex-grow: 1;
-    margin: 20px auto;
-    padding: 10px;
+    margin: 20px 5px;
+    padding: 0;
     max-width: 400px;
+}
+#veganer .tekst {
+    background-color: #fff;
+    padding: 5px 20px;
+    order: 2;
+}
+#veganer .billede {
+    background-color: #fff;
+    padding: 5px 20px;
+    order: 1;
 }
 #veganer img {
     width: 60%;
     float: right;
-    padding: 20px;
-    background-color: #89DA59;
+    padding: 15px;
+    background-color: #fff;
     margin: 0 auto;
+}
+#veganer h3 {
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px
+}
+#veganer h4 {
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+#veganer p {
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 @media screen and (max-width: 839px) {
     #veganer img {
         float: none;
     }
+    #veganer .tekst {
+        order: 1;
+    }
+    #veganer .billede {
+        order: 2;
+    }
 }
-
-/****VEGANER********************/
 
 /****ANIMALRESCUE***************/
 #animalrescue {}
